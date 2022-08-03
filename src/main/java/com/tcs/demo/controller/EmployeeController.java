@@ -16,6 +16,7 @@ public EmployeeController() {
 	Emp.add(new Employee("Raj",5,"Kolkata"));
 	Emp.add(new Employee("Sayantan", 10, "Bangalore"));
 	Emp.add(new Employee("Sayonnil", 8, "Naihati"));
+	Emp.add(new Employee("Souhardya",12,"Purulia"));
 }
 @GetMapping("/getEmployeeById/{eid}")
 public Employee getEmployees(@PathVariable(name="eid") int id) {
